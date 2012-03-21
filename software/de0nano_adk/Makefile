@@ -144,7 +144,7 @@ ELF := de0nano.elf
 # Paths to C, C++, and assembly source files.
 C_SRCS :=
 CXX_SRCS += main.cpp
-CXX_SRCS += ../common/adb.cpp
+CXX_SRCS += ../common/android_accessory.cpp
 CXX_SRCS += ../common/nios2_common.cpp
 CXX_SRCS += ../common/usb.cpp
 CXX_SRCS += ../common/max3421e.cpp
